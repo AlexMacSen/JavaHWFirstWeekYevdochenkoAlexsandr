@@ -9,71 +9,7 @@ import java.util.Scanner;
  */
 public class JavaHWFirstWeek {
 
-    public static class NumberMonth {
-
-        /**
-         * определение времени года по номеру месяца (используя switch…case)
-         */
-
-        public static void main(String[] args) {
-            int number = 0;
-            Scanner in = new Scanner(System.in);
-            System.out.println("Введите номер месяца(от 1 до 12) :");
-            if (in.hasNextInt())
-                number = in.nextInt();
-            else
-                System.out.println("Вы ввели не целое число");
-            if (number > 12)
-                System.out.println("Вы ввели  число больше 12");
-            monthSeek(number);
-        }
-
-        public static void monthSeek(int number) {
-            String month = null;
-            switch (number) {
-                case 1:
-                    month = "Январь";
-                    break;
-                case 2:
-                    month = "Февраль";
-                    break;
-                case 3:
-                    month = "Март";
-                    break;
-                case 4:
-                    month = "Апрель";
-                    break;
-                case 5:
-                    month = "Май";
-                    break;
-                case 6:
-                    month = "Июнь";
-                    break;
-                case 7:
-                    month = "Июль";
-                    break;
-                case 8:
-                    month = "Август";
-                    break;
-                case 9:
-                    month = "Сентябрь";
-                    break;
-                case 10:
-                    month = "Октябрь";
-                    break;
-                case 11:
-                    month = "Ноябрь";
-                    break;
-                case 12:
-                    month = "Декабрь";
-                    break;
-            }
-            System.out.println(month);
-        }
-    }
-
-
-    public static class SomeNumbers {
+       public static class SomeNumbers {
         /**
          * ввод с клавиатуры в консоль 10  чисел. Определить минимум и максимум и вывести их на экран.
          */

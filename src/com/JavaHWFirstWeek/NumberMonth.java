@@ -3,7 +3,7 @@ package com.JavaHWFirstWeek;
 import java.util.Scanner;
 
 /**
- * Created by user on 27.01.2017.
+ * Created by Alexandr Yevdochenko 27.01.2017.
  */
 public class NumberMonth {
     /**
